@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+h1{
+    font-weight: 800;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+tr {
+    text-transform: capitalize;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 550;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .column.side{
+        width: 50%;
+    }
+}

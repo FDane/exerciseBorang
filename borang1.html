@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borang</title>
+    <link rel="stylesheet" href="styleborang1.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column side">
+            <h1>BORANG</h1>
+            <form action=" " action="simpan.php" method="get"></form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="namapemohon">Nama Pemohon</label>
+                    </td>
+                    <td>
+                        <input type="text" name="namapemohon" id="namapemohon">
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <label for="alamat">Alamat</label>
+                    </td>
+                    <td>
+                        <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <button type="button" value="submit" class="button" onclick="mySubmit()">SIMPAN</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="column side">
+            <h1>BUTIRAN</h1>
+            <table>
+                <tr>
+                    <td>Nama Pemohon: </td>
+                    <td id="paparnamapemohon"></td>
+                </tr>
+                <tr>
+                    <td>Alamat : </td>
+                    <td id="paparalamat"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>AHLI KUMPULAN</h2>
+    <P>NAMA : MUHAMMAD FAKHRUL DANIAL BIN SUKOR</P>
+    <P>NO MATRIK : 18DDT20F1106</P>
+    <P>NAMA : MUHAMMAD AMIR IRFAN BIN HARUN</P>
+    <P>NO MATRIK : 18DDT20F1105</P>
+    <P>NAMA : MOHAMAD SYAZWAN BIN ,OHAMAD SUHAIMI</P>
+    <P>NO MATRIK : 18DDT20F1069</P>
+<script src="javaborang1.js"></script>
+</body>
+</html>
